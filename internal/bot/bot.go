@@ -1,4 +1,4 @@
-package main
+package bot
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 	"github.com/mymmrac/telego"
 )
 
-func main() {
+func Bot() {
 	// Get Bot token from environment variables
 	botToken := os.Getenv("TOKEN")
 
